@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-image: url('https://i.ibb.co/ZTr4v7d/ecb40bd325044b86395176773ed39c8e.jpg');
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    background: #0E1E2B;
+    margin: 10px auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Copperplate';
+    color: #E4FDE1;
+}
+ul li {
+    background: #1C3D52;
+    width: 30%;
+    height: 150px;
+    border: 1px solid #66D7EB;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.empty {
+    background: #3E849E;
+    border: 2px solid #114B5F;
+}
+
+h1 {
+    color: #51ACC5;
+    font-family: 'Papyrus';
+    text-align: center;
+
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Courier New';
+    text-align: center;
+
+}
+
+/* Modal styles */
+#modal {
+    width: 40%;
+    height: 300px;
+    background: #FFFAF0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Julius Sans One';
+}
+
+#modal #message {
+    color: #191970;
+    margin: 0;
+    font-size: 6rem;
+}
+
+.hide {
+    display: none;
+}
+#modal #header {
+    text-align: right;
+    padding: 5px 10px;
+}
+#modal #header button {
+    padding: 10px;
+    border: 0px;
+    background: #456990;
+    color: #E4FDE1;
+    cursor: pointer;
+}
